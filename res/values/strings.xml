@@ -2,6 +2,13 @@
 <resources>
 
     <string name="app_name">Animaciones</string>
+    <string name="carrusel_de_imagenes">Carrusel de imagenes</string>
+    <string name="title_activity_carrusel">Carrusel</string>
+    <string name="animacion">animacion Bubble</string>
+    <string name="title_activity_animacion">Animacion</string>
+    <string name="bubble">Bubble</string>
+    <string name="cambio_de_color">Cambio de color</string>
+    <string name="title_activity_cambio_de_color">CambioDeColor</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 

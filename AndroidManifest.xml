@@ -22,6 +22,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Carrusel"
+            android:label="@string/title_activity_carrusel" >
+        </activity>
+        <activity
+            android:name=".Animacion"
+            android:label="@string/title_activity_animacion" >
+        </activity>
+        <activity
+            android:name=".CambioDeColor"
+            android:label="@string/title_activity_cambio_de_color" >
+        </activity>
     </application>
 
 </manifest>

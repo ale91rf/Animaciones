@@ -8,4 +8,34 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.alejandroramirez.animaciones.MainActivity" >
 
+    <Button
+        android:id="@+id/btnCarrusel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="19dp"
+        android:text="@string/carrusel_de_imagenes" />
+
+    <Button
+        android:id="@+id/BtnAnimacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnCarrusel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/btnCarrusel"
+        android:layout_marginBottom="16dp"
+        android:text="Animacion" />
+
+    <Button
+        android:id="@+id/BtnCambio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/BtnAnimacion"
+        android:layout_alignLeft="@+id/BtnAnimacion"
+        android:layout_alignRight="@+id/BtnAnimacion"
+        android:layout_marginBottom="16dp"
+        android:text="@string/cambio_de_color" />
+
 </RelativeLayout>
